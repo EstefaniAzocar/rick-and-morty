@@ -1,0 +1,36 @@
+.characterCard{
+    display: flex;
+    float:left;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    height: 40vh;
+    width: 30vw;
+    margin: 1.5vw;
+    border-radius: 5vh;
+}
+.characterCard .characterImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 14vw;
+    height: 14vw;
+}
+.characterCard .characterImage img{
+    width: 90%;
+    height: 90%;
+}
+
+.characterCard .characterInfo *{
+    margin: 0;
+    text-align: center;
+}
+.characterCard .characterInfo{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 14vw;
+    justify-content: space-between;
+    align-items: center;
+}
