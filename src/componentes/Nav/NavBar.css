@@ -1,10 +1,18 @@
 header {
     align-items: center;
-    background-color: rgb(100, 59, 59);
+    background-color: black;
     display: flex;
     height: 30vh;
     justify-content: space-evenly;
     width: 100vw;
+  }
+
+ .logo {
+   display: flex;
+   flex-direction: row;
+   height: 25vh;
+   width: 40vw;
+  padding: 0%;
   }
   
   ol {

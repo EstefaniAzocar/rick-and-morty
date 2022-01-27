@@ -1,18 +1,18 @@
 #principalArticle{
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(45deg, rgb(105, 191, 224) 30%, rgb(226, 167, 168) 70%);
+    background-color: black;
 }
 
 #principalArticle .image{
     display: flex;
     width: 30vw;
     height: 50vh;
-    background-color: ;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -26,15 +26,16 @@
     width: 60vw;
     flex-direction: column;
     height: 50vh;
-    background-color: rgba(246, 218, 219, 0.8);
+    
     text-align: justify;
     padding: 1vh;
+    margin-top: 20px;
     align-items: center;
     overflow: auto;
 }
 
 #principalArticle .description h1{
-    color: rgb(42, 10, 73);
+    color: rgb(170, 135, 204);
     margin-bottom: 0;
     margin-top: 2px;
     font-size: 38px;
@@ -43,4 +44,5 @@
 #principalArticle .description p{
     font-size: 14px;
     padding: 1vw;
+    color: white;
 }
