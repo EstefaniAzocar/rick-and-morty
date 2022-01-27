@@ -1,7 +1,7 @@
 .episodeCard{
     display: flex;
     flex-direction: column;
-    background-color: rgb(236, 122, 221);
+    background-color: rgb(255, 127, 238);
     width: 80vw;
     height: auto;
     margin:2vw;

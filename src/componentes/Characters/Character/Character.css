@@ -3,7 +3,7 @@
     float:left;
     justify-content: space-around;
     align-items: center;
-    background-color: #eb94d0;
+    background-color: black;
     height: 40vh;
     width: 30vw;
     margin: 1.5vw;
@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2079b0;
+    background-color: #eb94d0;
     width: 14vw;
     height: 14vw;
 }
@@ -25,6 +25,7 @@
 .characterCard .characterInfo *{
     margin: 0;
     text-align: center;
+    color: white;
 }
 .characterCard .characterInfo{
     display: flex;
@@ -33,4 +34,5 @@
     height: 14vw;
     justify-content: space-between;
     align-items: center;
+    
 }
