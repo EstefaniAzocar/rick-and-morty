@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Episode } from "./Episode/Episode";
-import Button from "../Characters/Button/button";
-import './episodes.css'
+import {Button} from "../Characters/Button/Button";
+import './Episodes.css'
 
 export function Episodes(){
 

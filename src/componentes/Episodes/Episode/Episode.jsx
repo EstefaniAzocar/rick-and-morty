@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Character from "../../Characters/Character/character";
-import './episode.css';
+import {Character} from "../../Characters/Character/Character";
+import './Episode.css';
 
 export function Episode(props) {
     const { name, airDate, episode, charactersList } = props
@@ -16,7 +16,7 @@ export function Episode(props) {
 
     useEffect(()=>{
       apiMap(charactersList)
-    }, []);
+    }, [charactersList]);
       return (
         <div className="episodeCard">
           <div className="episodeInfo">

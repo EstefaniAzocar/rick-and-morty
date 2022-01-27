@@ -35,15 +35,38 @@ const onFemale =() =>{
   fetchApi("https://rickandmortyapi.com/api/character/?gender=female")
 }
 
+const onGenderless = () => {
+  fetchApi("https://rickandmortyapi.com/api/character/?gender=genderless");
+};
+const onUnknown = () => {
+  fetchApi("https://rickandmortyapi.com/api/character/?gender=unknown");
+};
+
+const onAll = () =>{
+  fetchApi(url)
+}
+
+
  useEffect( () =>{
   fetchApi(url)
  }, [])
 
   return( <div className='container_cards'> 
+
+    <div className='buttonGeneral'>
     <Button name='prev' onChange={onPrev} page={info.prev}/>
     <Button name='next' onChange={onNext} page={info.next}/>
+
+    <Button name='All' onChange={onAll} page={true}/>
+    </div>  
+    
+    <div className='buttonGenero'>
     <Button name='Male' onChange={onMale} page={true}/>
     <Button name='Female' onChange={onFemale} page={true}/>
+    <Button name='Gender' onChange={onGenderless} page={true}/>
+    <Button name='Unknown' onChange={onUnknown} page={true}/>
+    </div>
+    
     {characters.map(
     (character) => ( 
       <Character 
