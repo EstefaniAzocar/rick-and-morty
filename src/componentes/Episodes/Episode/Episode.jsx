@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CharacterCard from "../../Characters/Character/character";
+import Character from "../../Characters/Character/character";
 import './episode.css';
 
 export function Episode(props) {
@@ -26,7 +26,7 @@ export function Episode(props) {
           </div>
           <div className="episodeCharacterCards">
                 {character.map((item) => (
-                  <CharacterCard 
+                  <Character 
                   name={item.name}
                   key={item.id}
                   avatar={item.image}
